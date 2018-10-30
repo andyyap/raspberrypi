@@ -2,7 +2,6 @@ git init
 git remote add origin https://github.com/andyyap/raspberrypi.git
 git config --global user.name "Andy"
 git config --global user.email "andyyap@gmail.com"
-git pull
 git pull origin master
 git branch --set-upstream-to=origin/master
 vi README.md
